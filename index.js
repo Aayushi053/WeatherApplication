@@ -6,7 +6,7 @@ let iconData = document.querySelector(".weatherCondition img");
 let searchField = document.querySelector(".searchField");
 let form = document.querySelector("form");
 
-let target = "London";
+let target = "gurgaon";
 
 form.addEventListener("submit", function (e) {
   console.log(e);
